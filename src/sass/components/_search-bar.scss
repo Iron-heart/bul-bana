@@ -1,0 +1,35 @@
+.search-bar {
+  display: flex;
+  height: 41px;
+  background-color: #fff;
+  align-items: center;
+  width: 95%;
+  border-radius: 2em;
+  margin: 0 auto;
+  justify-content: flex-end;
+  border: 1px solid $primary-button-color;
+}
+
+.search-bar__fields {
+  width: 75%;
+  padding-left: 2.5%;
+}
+
+.search-bar__input {
+  height: 25px;
+  width: 50%;
+  border: none;
+  padding: 1em;
+}
+
+.search-bar__input--business {
+  border-right: 1px solid $primary-button-color;
+}
+
+.search-bar__submit {
+  height: 100%;
+  width: 25%;
+  background-color: $primary-button-color;
+  border: none;
+  border-radius: 0 2em 2em 0;
+}
