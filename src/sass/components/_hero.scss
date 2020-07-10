@@ -1,0 +1,17 @@
+.hero {
+  display: flex;
+  width: 100vw;
+  min-width: 330px;
+  height: 10vh;
+  min-height: 50px;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    height: 40vh;
+    min-height: 400px;
+  }
+}

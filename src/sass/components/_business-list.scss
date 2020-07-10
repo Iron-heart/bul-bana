@@ -1,0 +1,18 @@
+.business-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+
+  &__header {
+    text-align: center;
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .business-list {
+    width: 85%;
+  }
+}
