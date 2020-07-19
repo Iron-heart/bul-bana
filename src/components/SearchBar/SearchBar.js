@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import { IconContext } from "react-icons";
 import { FaSearchLocation } from "react-icons/fa";
 
-const SearchBar = ({ searchYelp }) => {
+const SearchBar = ({ searchYelp, color }) => {
   const [term, setTerm] = useState("");
   const [location, setLocation] = useState("");
 
   function onSubmitHandler() {
-    searchYelp(term, location);
+    if (term === "" || location === "") {
+      alert("Arama yapmadan önce gerekli alanları doldurunuz.");
+    } else {
+      searchYelp(term, location);
+    }
   }
 
   return (

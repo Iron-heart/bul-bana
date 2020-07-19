@@ -1,7 +1,7 @@
 const Yelp = {
   search(term, location) {
     return fetch(
-      `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=best_match&&locale=tr_TR`,
+      `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=best_match&locale=tr_TR`,
       {
         headers: {
           Authorization: `Bearer ${process.env.REACT_APP_YELP_KEY}`,

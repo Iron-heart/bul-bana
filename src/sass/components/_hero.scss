@@ -1,10 +1,10 @@
 .hero {
   display: flex;
-  width: 100vw;
+  width: 100%;
   min-width: 330px;
   height: 10vh;
   min-height: 50px;
-  background-color: black;
+  background-color: $ui-background-color;
   align-items: center;
   justify-content: center;
 }

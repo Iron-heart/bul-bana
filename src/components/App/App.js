@@ -5,28 +5,46 @@ import SearchBar from "../SearchBar/SearchBar";
 import Hero from "../Hero/Hero";
 import BusinessList from "../BusinessList/BusinessList";
 import Yelp from "../../util/Yelp";
+import Details from "../../pages/Details";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   const [businesses, setBusinesses] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   function searchYelp(term, location) {
-    Yelp.search(term, location)
-      .then((businessesList) => {
-        setBusinesses(businessesList);
-      })
-      .then(console.log(businesses));
+    setLoading(true);
+    Yelp.search(term, location).then((businessesList) => {
+      setBusinesses(businessesList);
+      setLoading(false);
+    });
   }
 
-  console.log(businesses);
   return (
-    <div>
-      <Hero>
-        <SearchBar searchYelp={searchYelp} />
-      </Hero>
-      <Layout>
-        <BusinessList businesses={businesses} />
-      </Layout>
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route path="/" exact>
+            <Hero>
+              <SearchBar searchYelp={searchYelp} color="red" />
+            </Hero>
+            {loading ? (
+              <div className="business-list__loading">
+                <h2>Yükleniyor...</h2>
+              </div>
+            ) : (
+              <Layout>
+                <BusinessList businesses={businesses} />
+              </Layout>
+            )}
+          </Route>
+          <Route
+            path="/details/:id"
+            render={(props) => <Details {...props} searchYelp={searchYelp} />}
+          />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
