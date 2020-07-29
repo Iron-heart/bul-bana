@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bul-bana/static/css/main.2de4ee0c.chunk.css",
+    "main.css": "/bul-bana/static/css/main.2f4418b8.chunk.css",
     "main.js": "/bul-bana/static/js/main.023e594e.chunk.js",
     "main.js.map": "/bul-bana/static/js/main.023e594e.chunk.js.map",
     "runtime-main.js": "/bul-bana/static/js/runtime-main.60a3cf3f.js",
@@ -8,16 +8,16 @@
     "static/js/2.c072fb35.chunk.js": "/bul-bana/static/js/2.c072fb35.chunk.js",
     "static/js/2.c072fb35.chunk.js.map": "/bul-bana/static/js/2.c072fb35.chunk.js.map",
     "index.html": "/bul-bana/index.html",
-    "precache-manifest.80f0e094141d0f996c42e39db4e06b6c.js": "/bul-bana/precache-manifest.80f0e094141d0f996c42e39db4e06b6c.js",
+    "precache-manifest.3da39b63665f143c723aff2f50eb8a6d.js": "/bul-bana/precache-manifest.3da39b63665f143c723aff2f50eb8a6d.js",
     "service-worker.js": "/bul-bana/service-worker.js",
-    "static/css/main.2de4ee0c.chunk.css.map": "/bul-bana/static/css/main.2de4ee0c.chunk.css.map",
+    "static/css/main.2f4418b8.chunk.css.map": "/bul-bana/static/css/main.2f4418b8.chunk.css.map",
     "static/js/2.c072fb35.chunk.js.LICENSE.txt": "/bul-bana/static/js/2.c072fb35.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/bul-bana/static/media/Bul-Bana BG.6f5ba30e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.60a3cf3f.js",
     "static/js/2.c072fb35.chunk.js",
-    "static/css/main.2de4ee0c.chunk.css",
+    "static/css/main.2f4418b8.chunk.css",
     "static/js/main.023e594e.chunk.js"
   ]
 }
