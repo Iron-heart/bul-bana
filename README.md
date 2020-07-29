@@ -1,3 +1,15 @@
+Hello there,
+This is a personal project that I use to showcase my current progress on React.
+
+In this project, I used React and SASS.
+Practiced mobile responsivity and tried to build my folder structure to be scalable.
+Project Uses Yelp Fusion API to make searches on Yelp,
+Dynamically renders returned businesses,
+Also displays location on Google Maps on details page.
+
+Regards.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
