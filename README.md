@@ -1,11 +1,11 @@
 Hello there,
 This is a personal project that I use to showcase my current progress on React.
 
-In this project, I used React and SASS.
-Practiced mobile responsivity and tried to build my folder structure to be scalable.
-Project Uses Yelp Fusion API to make searches on Yelp,
-Dynamically renders returned businesses,
-Also displays location on Google Maps on details page.
+In this project, I used React and SASS.<br>
+Practiced mobile responsivity and tried to build my folder structure to be scalable.<br>
+Project Uses Yelp Fusion API to make searches on Yelp,<br>
+Dynamically renders returned businesses,<br>
+Also displays location on Google Maps on details page.<br>
 
 Regards.
 
