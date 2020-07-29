@@ -52,7 +52,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 150px;
+    min-width: 150px;
+    max-width: 200px;
     height: 1rem;
   }
 

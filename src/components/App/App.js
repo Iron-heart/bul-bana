@@ -15,13 +15,16 @@ function App() {
   function searchYelp(term, location) {
     setLoading(true);
     Yelp.search(term, location).then((businessesList) => {
+      if (businessesList.length === 0) {
+        alert("Aradığınız kriterlere uygun işletme bulunamadı.");
+      }
       setBusinesses(businessesList);
       setLoading(false);
     });
   }
 
   return (
-    <Router>
+    <Router basename={`${process.env.PUBLIC_URL}/`}>
       <div>
         <Switch>
           <Route path="/" exact>
