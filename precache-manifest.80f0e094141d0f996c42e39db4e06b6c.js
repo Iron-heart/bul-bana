@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8592c1177a12bf8980cb97855d7abefa",
+    "revision": "983756e50a5dd62207b78318f46a0571",
     "url": "/bul-bana/index.html"
   },
   {
-    "revision": "e1016b6e78cb20f34254",
-    "url": "/bul-bana/static/css/main.00955a6b.chunk.css"
+    "revision": "b50494aef07ddc8ad453",
+    "url": "/bul-bana/static/css/main.2de4ee0c.chunk.css"
   },
   {
     "revision": "4060df1308e419517907",
@@ -16,11 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bul-bana/static/js/2.c072fb35.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e1016b6e78cb20f34254",
-    "url": "/bul-bana/static/js/main.1d743a69.chunk.js"
+    "revision": "b50494aef07ddc8ad453",
+    "url": "/bul-bana/static/js/main.023e594e.chunk.js"
   },
   {
     "revision": "49dc179adbc4b856c80c",
     "url": "/bul-bana/static/js/runtime-main.60a3cf3f.js"
+  },
+  {
+    "revision": "6f5ba30edab7436ca445215619285a6e",
+    "url": "/bul-bana/static/media/Bul-Bana BG.6f5ba30e.jpg"
   }
 ]);
