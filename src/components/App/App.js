@@ -7,6 +7,8 @@ import BusinessList from "../BusinessList/BusinessList";
 import Yelp from "../../util/Yelp";
 import Details from "../../pages/Details";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { createHashHistory } from "history";
+let history = createHashHistory();
 
 function App() {
   const [businesses, setBusinesses] = useState([]);
@@ -24,7 +26,7 @@ function App() {
   }
 
   return (
-    <Router basename={`${process.env.PUBLIC_URL}/`}>
+    <Router basename={`${process.env.PUBLIC_URL}/#`} history={history}>
       <div>
         <Switch>
           <Route path="/" exact>
