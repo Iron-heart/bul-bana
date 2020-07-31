@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bul-bana/static/css/main.2f4418b8.chunk.css",
-    "main.js": "/bul-bana/static/js/main.f6cc7ded.chunk.js",
-    "main.js.map": "/bul-bana/static/js/main.f6cc7ded.chunk.js.map",
+    "main.js": "/bul-bana/static/js/main.18c0f9a6.chunk.js",
+    "main.js.map": "/bul-bana/static/js/main.18c0f9a6.chunk.js.map",
     "runtime-main.js": "/bul-bana/static/js/runtime-main.60a3cf3f.js",
     "runtime-main.js.map": "/bul-bana/static/js/runtime-main.60a3cf3f.js.map",
     "static/js/2.48045554.chunk.js": "/bul-bana/static/js/2.48045554.chunk.js",
     "static/js/2.48045554.chunk.js.map": "/bul-bana/static/js/2.48045554.chunk.js.map",
     "index.html": "/bul-bana/index.html",
-    "precache-manifest.6ca46a514928f8d778d4b38d27f108ee.js": "/bul-bana/precache-manifest.6ca46a514928f8d778d4b38d27f108ee.js",
+    "precache-manifest.2fec4d4b7dc8fc5825429e4f285dad09.js": "/bul-bana/precache-manifest.2fec4d4b7dc8fc5825429e4f285dad09.js",
     "service-worker.js": "/bul-bana/service-worker.js",
     "static/css/main.2f4418b8.chunk.css.map": "/bul-bana/static/css/main.2f4418b8.chunk.css.map",
     "static/js/2.48045554.chunk.js.LICENSE.txt": "/bul-bana/static/js/2.48045554.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.60a3cf3f.js",
     "static/js/2.48045554.chunk.js",
     "static/css/main.2f4418b8.chunk.css",
-    "static/js/main.f6cc7ded.chunk.js"
+    "static/js/main.18c0f9a6.chunk.js"
   ]
 }
